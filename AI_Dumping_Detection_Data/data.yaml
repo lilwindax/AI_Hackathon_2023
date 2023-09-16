@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['dumping']
+
+roboflow:
+  workspace: aidumpingdetection
+  project: ai-dumping-detection
+  version: 2
+  license: MIT
+  url: https://universe.roboflow.com/aidumpingdetection/ai-dumping-detection/dataset/2
