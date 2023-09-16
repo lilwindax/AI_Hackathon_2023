@@ -22,7 +22,7 @@ def get_prediction(image_path):
     return output_image_path
 
 def main():
-    st.title('Roboflow Inference Streamlit App')
+    st.title('Illegal Dumping Test App')
 
     st.write("You can upload your own image or choose one of our sample images for testing.")
 
